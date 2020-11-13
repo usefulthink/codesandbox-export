@@ -1,0 +1,33 @@
+:root {
+  --metaLineFontSize: 12px;
+  --black: #1d2124;
+  --secondary: #5e737d;
+  --tertiary: #8398a5;
+}
+
+.App {
+  font-family: XING Sans;
+  font-display: block;
+  text-align: center;
+  font-feature-settings: "frac", "swsh";
+}
+.superellipse__svg {
+  stroke: #f4f4f5;
+  stroke-width: 2px;
+  width: 68px;
+  height: 68px;
+}
+.icon {
+  width: 18px;
+  height: 18px;
+}
+.signifier {
+  font-size: var(--metaLineFontSize);
+}
+.timestamp {
+  font-size: var(--metaLineFontSize);
+}
+
+.actorname {
+  font-weight: 700;
+}

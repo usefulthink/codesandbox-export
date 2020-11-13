@@ -1,0 +1,68 @@
+button {
+  font-family: XING sans;
+  margin-top: 8px;
+  padding: 0 16px;
+  font-weight: 700;
+  font-size: 16px;
+  height: 32px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  cursor: pointer;
+  border: none;
+  transition: all 0.2s ease-in-out;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Likely future */
+  &:focus {
+    outline: none;
+    box-shadow: none;
+  }
+}
+
+button.tertiary {
+  background-color: #dbe2e6;
+  &:hover {
+    background-color: darken(#dbe2e6, 5%);
+  }
+  &:active {
+    color: white;
+    background-color: var(--xdlColorText) !important;
+  }
+  &.active {
+    color: white;
+    background-color: var(--xdlColorText) !important;
+  }
+}
+
+button.primary {
+  border: none;
+  background: #c6f16d;
+  &:hover {
+    background: darken(#c6f16d, 5%);
+  }
+  &:active {
+    color: white;
+    background-color: var(--xdlColorText) !important;
+  }
+}
+
+button.premium {
+  border: none;
+  color: white;
+  background: #0698a0;
+  &:hover {
+    background: darken(#0698a0, 5%);
+  }
+  &:active {
+    color: white;
+    background-color: var(--xdlColorText) !important;
+  }
+}
+
+button.text {
+  border: none;
+  background: transparent;
+}
